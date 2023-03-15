@@ -1,0 +1,61 @@
+/* header {
+    background-color: #ADD8E6;
+} */
+
+/* nav {
+    background-color: #DAA520;
+} */
+
+footer {
+    background-color: #23272A;
+}
+
+/* header .pagina {
+    background-color: #00008B;
+} */
+
+/* .home {
+    background-color: #EE82EF;
+} */
+
+.pagina:nth-child(odd) {
+    background-color: #D3D3D3;
+}
+
+main .pagina:last-child {
+    background-color: #23272A;
+}
+
+/* .container {
+    background-color: black;
+} */
+
+.image {
+    background-color: #1F90FF;
+    min-height: 500px;
+}
+
+.text {
+    background-color: #FFC0CA;
+    min-height: 500px;
+}
+
+.block3 {
+    background-color: green;
+}
+
+.block4 {
+    background-color: #F18080;
+}
+
+.block5 {
+    background-color: #1EB2AA;
+}
+
+.containerfooter {
+    background-color: #7FFFD4;
+}
+
+/* .btn {
+    background-color: #D48E8C;
+} */

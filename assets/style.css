@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+nav {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 100%;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.pagina p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #255EE9;
+    width: 100%;
+    height: 3rem;
+    white-space: nowrap;
+}
+
+.navbar .container-bar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+.navbar .container > * {
+    display: flex;
+    align-items:center;
+}
+
+/* .border {
+    border: 1px dashed black;
+} */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    color: #FFFFFF;
+    height: 25px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    padding: 0 1rem;
+}
+
+.login .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    text-align: center;
+    max-width: 600px;
+    color: #FFFFFF;
+    padding-bottom: 8rem;
+}
+
+.pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 500px; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bkg-gray {
+	background-color: #F5F5F5; /* TODO: check value */
+}
+
+header .pagina {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* .pagina:nth-child(odd) {
+    flex-direction: row-reverse;
+} */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    min-height: 100%;
+    margin-inline: auto;
+}
+
+.image {
+    flex: 0 0 70%;
+}
+
+.text {
+    flex: 0 0 30%;
+    padding: 3rem 0;
+}
+
+.block3 {
+    text-align: center;
+}
+
+.block4 {
+    height: 400px;
+    width: 30%;
+}
+
+.login
+.block5 {
+    height: 400px;
+    width: 17.5%;
+}
+
+.containerfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    width: 800px;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em .7em;
+    border-radius: 9em;
+    white-space: nowrap;
+}
+
+.btn-small {
+    height: 30px;
+    width: 60px;
+    font-size: 11px;
+}
+
+.btn-big {
+    padding: .8em 2em;
+    font-size: 15px;
+}
+
+.btn-white {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
+
+.btn-violet {
+    background-color: #8EA1E1;
+    color: white;
+}
+
+h3 {
+    padding: 3rem 0;
+    margin-inline: auto;
+    padding: 3rem;
+    max-width: 600px;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* footer */
+
+.container {
+	max-width: 1300px;
+	margin-inline: auto;
+	padding-inline: 1rem;
+}
+
+footer {
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+	background-color: black; /* TODO: check value */
+}
+
+footer .footer-top {
+	display: flex;
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 3px solid white; /* TODO: check value */
+}
+
+footer .column-socials {
+	flex: 0 0 40%;
+	color: white;
+}
+
+footer .first-level-list {
+	flex: 0 0 60%;
+}
+
+footer .column-socials h2 {
+	color: #8EA1E1;
+}
+
+footer .column-links h5 {
+    font-size: 1rem;
+	color: #8EA1E1;
+}
+
+footer .lang img {
+	height: 1em;
+}
+
+footer .socials {
+	font-size: 2em;
+}
+
+footer .socials > i {
+	padding-right: 1rem;
+    font-size: 1.5rem;
+}
+
+footer .first-level-list {
+	display: flex;
+	list-style: none;
+}
+
+footer .first-level-list .column-links {
+    padding: 0 2rem;
+	flex: 0 0 25%;
+}
+
+footer .first-level-list .column-links li {
+	font-size: .8rem;
+}
+
+
+footer .footer-bottom {
+	display: flex;
+	justify-content: space-between;
+    width: 800px;
+    color: white;
+}
+
+.wave {
+	display: block;
+	width: 100%;
+	opacity: 20%;
+}
+
+.wave.bottom {
+	transform: rotateX(180deg) rotateY(180deg);
+}
